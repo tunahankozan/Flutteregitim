@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1080102496398",
+    "project_id": "fireworks-a252e",
+    "storage_bucket": "fireworks-a252e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080102496398:android:267afcf2a6a515088441df",
+        "android_client_info": {
+          "package_name": "com.example.firebase_projeckt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080102496398-tbrqsk0kdo6kto3jl4j3qoq5vteapi46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxT2zaWcMftfqT7ExaX7dkCj3nKJOmgSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080102496398-tbrqsk0kdo6kto3jl4j3qoq5vteapi46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
