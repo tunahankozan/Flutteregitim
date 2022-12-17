@@ -1,13 +1,27 @@
-import 'package:cloud_firestore_platform_interface/cloud_firestore_platform_interface.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_projeckt/dinleyiciyey%C3%B6nlendirme.dart';
+import 'package:fireworks/services/benimAuthServisim.dart';
+import 'package:fireworks/yonlendirmeSayfasi.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-class kullanici{
-  final String id;
-  final String isim;
-  final String soyad;
-  final String avatar;
-  final String eposta;
 
-  kullanici({required this.id, required this.isim, required this.soyad, required this.avatar, required this.eposta});
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
   
-
+  @override
+  Widget build(BuildContext context) {
+    return Provider<BenimAuthServisim>(
+      create: (_) => BenimAuthServisim(),
+          child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Projem',
+        theme: ThemeData(
+          primarySwatch: Colors.green,
+        ),
+        home: YonlendirmeSayfasi(),
+      ),
+    );
+  }
 }
